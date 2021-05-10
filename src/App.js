@@ -56,7 +56,7 @@ const App = () => {
         },
       });
     } else {
-      if (nominations.length >= 5) {
+      if (nominations && nominations.length >= 5) {
         store.addNotification({
           title: "Limit Reached!",
           message: "Please remove a movie from your nominations list first. ",
