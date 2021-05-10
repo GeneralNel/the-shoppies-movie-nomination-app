@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/the-shoppies-movie-nomination-app/static/css/main.12291ed4.chunk.css",
-    "main.js": "/the-shoppies-movie-nomination-app/static/js/main.5eb4c688.chunk.js",
-    "main.js.map": "/the-shoppies-movie-nomination-app/static/js/main.5eb4c688.chunk.js.map",
+    "main.js": "/the-shoppies-movie-nomination-app/static/js/main.df6d56d0.chunk.js",
+    "main.js.map": "/the-shoppies-movie-nomination-app/static/js/main.df6d56d0.chunk.js.map",
     "runtime-main.js": "/the-shoppies-movie-nomination-app/static/js/runtime-main.f8cae660.js",
     "runtime-main.js.map": "/the-shoppies-movie-nomination-app/static/js/runtime-main.f8cae660.js.map",
     "static/css/2.7e00e367.chunk.css": "/the-shoppies-movie-nomination-app/static/css/2.7e00e367.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.7e00e367.chunk.css",
     "static/js/2.4ede342d.chunk.js",
     "static/css/main.12291ed4.chunk.css",
-    "static/js/main.5eb4c688.chunk.js"
+    "static/js/main.df6d56d0.chunk.js"
   ]
 }
