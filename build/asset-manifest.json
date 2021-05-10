@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/the-shoppies-movie-nomination-app/static/css/main.12291ed4.chunk.css",
-    "main.js": "/the-shoppies-movie-nomination-app/static/js/main.a26a3c92.chunk.js",
-    "main.js.map": "/the-shoppies-movie-nomination-app/static/js/main.a26a3c92.chunk.js.map",
-    "runtime-main.js": "/the-shoppies-movie-nomination-app/static/js/runtime-main.f8cae660.js",
-    "runtime-main.js.map": "/the-shoppies-movie-nomination-app/static/js/runtime-main.f8cae660.js.map",
-    "static/css/2.7e00e367.chunk.css": "/the-shoppies-movie-nomination-app/static/css/2.7e00e367.chunk.css",
-    "static/js/2.4ede342d.chunk.js": "/the-shoppies-movie-nomination-app/static/js/2.4ede342d.chunk.js",
-    "static/js/2.4ede342d.chunk.js.map": "/the-shoppies-movie-nomination-app/static/js/2.4ede342d.chunk.js.map",
-    "static/js/3.90b30524.chunk.js": "/the-shoppies-movie-nomination-app/static/js/3.90b30524.chunk.js",
-    "static/js/3.90b30524.chunk.js.map": "/the-shoppies-movie-nomination-app/static/js/3.90b30524.chunk.js.map",
+    "main.js": "/the-shoppies-movie-nomination-app/static/js/main.937f7c2a.chunk.js",
+    "main.js.map": "/the-shoppies-movie-nomination-app/static/js/main.937f7c2a.chunk.js.map",
+    "runtime-main.js": "/the-shoppies-movie-nomination-app/static/js/runtime-main.0bdf0f7c.js",
+    "runtime-main.js.map": "/the-shoppies-movie-nomination-app/static/js/runtime-main.0bdf0f7c.js.map",
+    "static/css/2.dd95b5fd.chunk.css": "/the-shoppies-movie-nomination-app/static/css/2.dd95b5fd.chunk.css",
+    "static/js/2.96fe0c83.chunk.js": "/the-shoppies-movie-nomination-app/static/js/2.96fe0c83.chunk.js",
+    "static/js/2.96fe0c83.chunk.js.map": "/the-shoppies-movie-nomination-app/static/js/2.96fe0c83.chunk.js.map",
+    "static/js/3.acf5fbb9.chunk.js": "/the-shoppies-movie-nomination-app/static/js/3.acf5fbb9.chunk.js",
+    "static/js/3.acf5fbb9.chunk.js.map": "/the-shoppies-movie-nomination-app/static/js/3.acf5fbb9.chunk.js.map",
     "index.html": "/the-shoppies-movie-nomination-app/index.html",
-    "static/css/2.7e00e367.chunk.css.map": "/the-shoppies-movie-nomination-app/static/css/2.7e00e367.chunk.css.map",
+    "static/css/2.dd95b5fd.chunk.css.map": "/the-shoppies-movie-nomination-app/static/css/2.dd95b5fd.chunk.css.map",
     "static/css/main.12291ed4.chunk.css.map": "/the-shoppies-movie-nomination-app/static/css/main.12291ed4.chunk.css.map",
-    "static/js/2.4ede342d.chunk.js.LICENSE.txt": "/the-shoppies-movie-nomination-app/static/js/2.4ede342d.chunk.js.LICENSE.txt"
+    "static/js/2.96fe0c83.chunk.js.LICENSE.txt": "/the-shoppies-movie-nomination-app/static/js/2.96fe0c83.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f8cae660.js",
-    "static/css/2.7e00e367.chunk.css",
-    "static/js/2.4ede342d.chunk.js",
+    "static/js/runtime-main.0bdf0f7c.js",
+    "static/css/2.dd95b5fd.chunk.css",
+    "static/js/2.96fe0c83.chunk.js",
     "static/css/main.12291ed4.chunk.css",
-    "static/js/main.a26a3c92.chunk.js"
+    "static/js/main.937f7c2a.chunk.js"
   ]
 }
