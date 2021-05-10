@@ -42,25 +42,12 @@ const App = () => {
   };
 
   const addNomination = (movie) => {
-    if (nominations.includes(movie)) {
-      store.addNotification({
-        title: "Already Nominated",
-        message: "Sorry, you already nominated this movie. ",
-        type: "warning",
-        container: "top-right",
-        insert: "top",
-        animationIn: ["animate__animated", "animate__fadeIn"],
-        animationOut: ["animate__animated", "animate__fadeOut"],
-        dismiss: {
-          duration: 2500,
-        },
-      });
-    } else {
-      if (nominations.length >= 5) {
+    if (nominations) {
+      if (nominations.includes(movie)) {
         store.addNotification({
-          title: "Limit Reached!",
-          message: "Please remove a movie from your nominations list first. ",
-          type: "danger",
+          title: "Already Nominated",
+          message: "Sorry, you already nominated this movie. ",
+          type: "warning",
           container: "top-right",
           insert: "top",
           animationIn: ["animate__animated", "animate__fadeIn"],
@@ -70,21 +57,36 @@ const App = () => {
           },
         });
       } else {
-        const newNominationList = [...nominations, movie];
-        setNomination(newNominationList);
-        saveToLocalStorage(newNominationList);
-        store.addNotification({
-          title: "Successfully added!",
-          message: "This movie has been added to your Nominations list. ",
-          type: "success",
-          container: "top-right",
-          insert: "top",
-          animationIn: ["animate__animated", "animate__fadeIn"],
-          animationOut: ["animate__animated", "animate__fadeOut"],
-          dismiss: {
-            duration: 2500,
-          },
-        });
+        if (nominations.length >= 5) {
+          store.addNotification({
+            title: "Limit Reached!",
+            message: "Please remove a movie from your nominations list first. ",
+            type: "danger",
+            container: "top-right",
+            insert: "top",
+            animationIn: ["animate__animated", "animate__fadeIn"],
+            animationOut: ["animate__animated", "animate__fadeOut"],
+            dismiss: {
+              duration: 2500,
+            },
+          });
+        } else {
+          const newNominationList = [...nominations, movie];
+          setNomination(newNominationList);
+          saveToLocalStorage(newNominationList);
+          store.addNotification({
+            title: "Successfully added!",
+            message: "This movie has been added to your Nominations list. ",
+            type: "success",
+            container: "top-right",
+            insert: "top",
+            animationIn: ["animate__animated", "animate__fadeIn"],
+            animationOut: ["animate__animated", "animate__fadeOut"],
+            dismiss: {
+              duration: 2500,
+            },
+          });
+        }
       }
     }
   };
