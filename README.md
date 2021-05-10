@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# The Shoppies -  Movie Nomination App
+- Search your favorite movie from the OMDB movie library collection
+- Add it to your 5 Movies Nomination List
+- Remove a Nomination for those second thoughts
+- Nominate and then forget about it: Your browser will save your nominations even if you accidentally close the tab or leave your computer
+![image](https://user-images.githubusercontent.com/47929417/117604121-2e5c5080-b11a-11eb-9b57-ed70a021abdf.png)
+
+
+Cool UI to add and remove nominations:
+![image](https://user-images.githubusercontent.com/47929417/117604263-8e52f700-b11a-11eb-9fd6-4e8389c8b89d.png)
+![image](https://user-images.githubusercontent.com/47929417/117604274-99a62280-b11a-11eb-9ac5-5bfdba0ac8da.png)
+
+## This website also supports those moments you go over the 5 movies limit or love one movie so much that you try to nominate it twice!
+![image](https://user-images.githubusercontent.com/47929417/117604332-c2c6b300-b11a-11eb-900c-521f7e6ce7a4.png)
+![image](https://user-images.githubusercontent.com/47929417/117604368-d6721980-b11a-11eb-9d8e-9f1300e51609.png)
+
+
+## Information about this React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
