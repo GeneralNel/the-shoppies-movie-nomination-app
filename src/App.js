@@ -42,7 +42,7 @@ const App = () => {
   };
 
   const addNomination = (movie) => {
-    if (nominations.includes(movie)) {
+    if (nominations && nominations.includes(movie)) {
       store.addNotification({
         title: "Already Nominated",
         message: "Sorry, you already nominated this movie. ",
